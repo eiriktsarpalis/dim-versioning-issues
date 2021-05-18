@@ -3,7 +3,7 @@
 Showcases compile-time and runtime errors related to the diamond problem when introducing new DIMs to existing interfaces.
 This solution contains 3 projects:
 
-* `CoreLib` contains a set of core interface implementations in BCL.
+* `CoreLib` represents a set of core interface implementations in BCL.
 * `ThirdPartyLibrary` simulates a nuget package that implements the core interfaces.
 * `ConsoleApp` is a console application depending on `ThirdPartyLibrary`.
 
